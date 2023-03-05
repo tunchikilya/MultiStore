@@ -24,3 +24,17 @@ h1 {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.arrow {
+    position: absolute;
+    top: 115px;
+    right: 50px;
+    font-size: 30px;
+}
+
+.home-1 {
+    position: absolute;
+    top: 115px;
+    right: 10px;
+    font-size: 30px;
+}

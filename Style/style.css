@@ -19,10 +19,6 @@ h1 {
     color: white;
 }
 
-.termux {
-    background-color: white;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 .arrow {
@@ -33,6 +29,20 @@ h1 {
 }
 
 .home-1 {
+    position: absolute;
+    top: 115px;
+    right: 10px;
+    font-size: 30px;
+}
+
+.arrow_games {
+    position: absolute;
+    top: 275px;
+    right: 50px;
+    font-size: 30px;
+}
+
+.home-2 {
     position: absolute;
     top: 115px;
     right: 10px;

@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
+.name {
+    background: linear-gradient(to right, red, orange, yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+  top: 25px;
+  left: 100px;
+}
+
+h1 {
+    color: white;
+}
+
+.termux {
+    background-color: white;
+}

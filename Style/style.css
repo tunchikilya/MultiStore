@@ -48,3 +48,15 @@ h1 {
     right: 10px;
     font-size: 30px;
 }
+
+.sketchware {
+    position: absolute;
+    top: 175px;
+    left: 120px;
+}
+
+.sketchware_name {
+    position: absolute;
+    top: 224px;
+    left: 90px;
+}

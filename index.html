@@ -8,6 +8,30 @@
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,400&display=swap" rel="stylesheet">
 </head>
 
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.2/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBO6yxOmSf00fTIz_HbcHUDdfVtKG2Mrlw",
+    authDomain: "multistore-d79b7.firebaseapp.com",
+    projectId: "multistore-d79b7",
+    storageBucket: "multistore-d79b7.appspot.com",
+    messagingSenderId: "58662845882",
+    appId: "1:58662845882:web:106ba50495998a191b7183",
+    measurementId: "G-LGZEEBJ7QR"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
 <body>
 	<header>
 	    <img class="icon" src='pictures/icon.png' widht="78" height="78"></img>
@@ -15,6 +39,7 @@
 	<p class="name">MultiStore</p>
 	<hr></hr>
 
+<div class="allapps">
 	<h1>Apps for Android</h1>
 	<a class="arrow" href="apk_apps.html">-></p>
 	<a href="https://www.dropbox.com/s/2rwmzgcn14pej1g/termux_app.apk?dl=1"><img class="termux" src="pictures/termux.png" width="48" hight="48"></img></a>
@@ -31,6 +56,7 @@
 	<a class="arrow_hacked" href="apk_hacked.html">-></p>
 	<a href="https://www.dropbox.com/s/bsyl6lvs47dwhr3/alight.apk?dl=1"><img class="alight" src="pictures/alight.png" width="48" hight="48"></img></a>
 	<p>Alight Motion</p>
+</div>
 
 	<hr></hr>
 	<footer>
